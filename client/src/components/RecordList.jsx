@@ -36,7 +36,7 @@ const Record = (props) => (
 export default function RecordList() {
   const [records, setRecords] = useState([]);
   const REACT_APP_API_URL =
-    import.meta.env.REACT_APP_API_URL || "http://localhost:5050";
+    "https://employee-management-crud-app-427c.onrender.com";
   // This method fetches the records from the database.
   useEffect(() => {
     async function getRecords() {

@@ -11,7 +11,7 @@ export default function Record() {
   const params = useParams();
   const navigate = useNavigate();
   const REACT_APP_API_URL =
-    import.meta.env.REACT_APP_API_URL || "http://localhost:5050";
+    "https://employee-management-crud-app-427c.onrender.com";
 
   useEffect(() => {
     async function fetchData() {
